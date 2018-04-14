@@ -1,0 +1,21 @@
+.PokemonSelect-container{
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.PokemonSelect-add-btn{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset -2px -3px 2px rgba(0, 0, 0, 0.6);
+    padding: 2px;
+}
+
+.PokemonSelect-add-btn:hover{
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.6);
+    /* box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.6); */
+}

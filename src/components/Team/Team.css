@@ -1,0 +1,16 @@
+.team-container{
+    display: flex;
+    flex-direction: column;
+}
+.team-pokemon-deleteButon{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    position: relative;
+    left: 218px;
+    top: 25px;
+    cursor: pointer;
+}

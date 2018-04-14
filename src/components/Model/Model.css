@@ -1,0 +1,32 @@
+.Model-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0, 0.6)
+}
+
+.Model-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    width: 400px;
+    height: 400px;
+
+}
+
+.Model-close-btn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: inset -1px -3px 2px rgba(0,0,0, 0.6);
+    cursor: pointer;
+}

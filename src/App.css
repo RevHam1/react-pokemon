@@ -1,0 +1,85 @@
+html{
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.pokemon_container{
+  height: 300px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 5px 0 5px;
+  background: rgb(32, 212, 218);
+  padding: 10px;
+  margin: 10px;
+
+
+}
+.pokemon_image{
+  width: 180px;
+  height: auto;
+}
+.space_between{
+  display: flex;
+  justify-content: space-between;
+}
+.centerPart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.make_colume{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.small_margin{
+  margin: 15px;
+}
+
+.App-battlefeild{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Moudule-container{
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: white;
+  width: 400px;
+  height: 400px;
+
+}
